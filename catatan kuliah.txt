@@ -1,0 +1,76 @@
+Algoritma:
+Step 1 Jika n = 0, return nilai m sebagai hasil dan stop. Jika tidak, kembali ke step 2.
+Step 2 Bagi nilai m dengan n, masukkan nilai sisanyanya ke r
+Step 3 masukkan nilai n k m dan nilai r ke n. Kembali ke step 1
+Pseudocode:
+While n /= 0 do
+r <- m mod n
+m <- n
+n <- r
+return m
+
+Algoritma KPK:
+Step 1 diberikan nilai a adalah 3 dan nilai b adalah 4
+Step 2 jika nilai c sama dengan nilai a maka hasilnya adalah nilai d
+Step 3 jika nilai c sama dengan nilai b maka hasilnya adalah nilai e
+Step 4 untuk mendapatkan nilai f maka nilai d dan nilai e harus dikalikan
+
+============================================================================
+Algoritma:
+Step 1 Mendeklarasikan luas, alas, dan tinggi
+Step 2 Masukan alas = 25, tinggi = 30
+Step 3 Menghitung luas = ½*alas*tinggi
+Step 4 Menampilkan luas
+
+Pseudocode:
+deklarasi
+var luas, alas, tinggi
+alas ← 25
+tinggi ←30
+luas = ½*alas*tinggi
+write(luas)
+============================================================================
+Cara menghitung Luas jajar genjang:
+Algoritma:
+Step 1 tentukan panjang dan lebar dari jajar genjang
+Step 2 masukkan nilai panjang = 5 dan lebar = 3
+Step 3 hitung luas jajar genjang dengan cara Panjang * Tinggi
+Step 4 tampilkan hasilnya
+
+Pseudocode:
+deklarasi
+var luas, panjang, lebar
+panjang <- 5
+lebar <- 3
+luas = 5 * 3
+hasil akhir: 15 = luas
+============================================================================
+Cara menghitung Volume tabung:
+Algoritma:
+Step 1 tentukan Jari-jari dan tinggi dari tabung
+Step 2 masukkan jari-jari = 3 dan tinggi = 5
+Step 3 hitung volume tabung dengan cara menghitung πr² x t
+Step 4 tampilkan hasilnya
+
+Pseudocode:
+deklarasi
+var Jari-jari, tinggi
+jari-jari<- 3
+tinggi <- 5
+volume = 3,14 * 3^2 * 5
+hasil akhir: n = volume
+==============================================================================
+Cara menghitung Volume Kerucut:
+Algoritma:
+Step 1 tentukan diameter dan tinggi dari tabung
+Step 2 masukkan diameter = 5 dan tinggi = 4
+Step 3 hitung volume kerucut dengan cara menghitung ⅓ × π × r × r × t
+Step 4 tampilkan hasilnya
+
+Pseudocode:
+deklarasi
+var diameter, tinggi
+diameter <- 5
+tinggi <- 4
+volume = ⅓ × 3,14 × 5 × 5 × 4
+hasil akhir: n = volume
